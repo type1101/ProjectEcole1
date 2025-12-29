@@ -59,8 +59,6 @@ main{
 }
 
 
-/* --- AJUSTEMENT DE TES CLASSES EXISTANTES --- */
-
 /* Pour que le contenu ne soit pas caché derrière le header */
 main {
     height: auto; 
@@ -70,7 +68,7 @@ main {
 /* Style spécifique pour le bouton devis dans ton nav */
 .btn-nav-devis {
     background-color: #40E0D0;
-    color: #090F21 !important;
+    color: #090F21 !important; /*prioritaire eheheh */
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
@@ -90,7 +88,7 @@ h2 {
     margin-bottom: 60px;
 }
 
-/* Accueil / Hero */
+/* Accueil*/
 .hero-container {
     display: flex;
     justify-content: space-between;
