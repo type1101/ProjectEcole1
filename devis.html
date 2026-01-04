@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demander un Devis - CyberSecurity</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/devis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="zonelogo">
+            <img class="logo" src="img/LOGO.png" alt="logo">
+        </a>
+        <nav>
+            <a href="index.html#acceuil">Accueil</a>
+            <a href="expertise.html">Expertise</a>
+            <a href="index.html#contact">Contact</a>
+            <a href="devis.html" class="btn-nav-devis">Devis</a>
+        </nav>
+    </header>
+
+    <main class="devis-main">
+        <section class="devis-section">
+            <h1>DEMANDE DE DEVIS PERSONNALISÉ</h1>
+            <p>Décrivez votre projet et recevez une analyse préliminaire sous 24h.</p>
+            
+            <form class="form-devis">
+                <div class="form-group">
+                    <label>Votre Nom</label>
+                    <input type="text" placeholder="Ex: Jean Dupont" required>
+                </div>
+                <div class="form-group">
+                    <label>Type de service souhaité</label>
+                    <select>
+                        <option>Audit de sécurité</option>
+                        <option>Protection réseau</option>
+                        <option>Formation collaborateurs</option>
+                        <option>Autre (préciser)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Taille de l'entreprise</label>
+                    <input type="number" placeholder="Nombre d'employés">
+                </div>
+                <div class="form-group">
+                    <label>Détails du projet</label>
+                    <textarea placeholder="Décrivez vos besoins spécifiques..."></textarea>
+                </div>
+                <button type="submit" class="btn-cyan">ENVOYER LA DEMANDE</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Tous droits réservés - Votre Entreprise</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+/* --- Styles spécifiques à la page Devis --- */
+
+.devis-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15vh; /* Pour compenser le header fixe */
+}
+
+.devis-section {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(64, 224, 208, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 50px;
+}
+
+.devis-section h1 {
+    color: #40E0D0;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.devis-section p {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #40E0D0;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+select {
+    padding: 15px;
+    background: #090F21;
+    border: 1px solid #40E0D0;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.form-devis .btn-cyan {
+    width: 100%; /* Le bouton prend toute la largeur pour plus d'impact */
+    margin-top: 10px;
+}

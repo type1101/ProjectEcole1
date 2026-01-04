@@ -1,0 +1,33 @@
+/* --- Styles spécifiques à la page Expertise --- */
+
+.expertise-hero {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.expertise-hero h1 {
+    font-size: 2.8rem;
+    color: #40E0D0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.expertise-hero p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+/* Espacement spécifique pour la grille sur cette page */
+.expertise-grid-container {
+    padding-bottom: 80px;
+}
+
+/* Style des icônes pour qu'elles ressortent bien */
+.card i {
+    display: block;
+    margin: 0 auto 20px auto;
+    filter: drop-shadow(0 0 5px rgba(64, 224, 208, 0.4));
+}
