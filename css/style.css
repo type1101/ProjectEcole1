@@ -154,6 +154,63 @@ form {
     margin: 0 auto;
 }
 
+/* Conteneur de notifications */
+#notification-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Style de la notification */
+.notification {
+    background: rgba(9, 15, 33, 0.9);
+    color: #40E0D0;
+    border: 1px solid #40E0D0;
+    padding: 15px 25px;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(64, 224, 208, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 300px;
+    animation: slideIn 0.5s ease forwards, fadeOut 0.5s ease 4.5s forwards;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Barre de progression de durée */
+.notification::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background: #40E0D0;
+    width: 100%;
+    animation: progress 5s linear forwards;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes fadeOut {
+    to { transform: translateX(100%); opacity: 0; }
+}
+
+@keyframes progress {
+    from { width: 100%; }
+    to { width: 0%; }
+}
+
+
+
 input, textarea {
     padding: 15px;
     background: transparent;
