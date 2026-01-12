@@ -66,14 +66,12 @@ main{
 }
 
 
-/* Pour que le contenu ne soit pas caché derrière le header */
 main {
     padding-top: 65px;
     height: auto; 
     min-height: 85vh;
 }
 
-/* Style spécifique pour le bouton devis dans ton nav */
 .btn-nav-devis {
     background-color: #40E0D0;
     color: #090F21 !important; /*prioritaire eheheh */
@@ -82,7 +80,7 @@ main {
     font-weight: bold;
 }
 
-/* --- NOUVEAUX STYLES POUR LES SECTIONS --- */
+/* --- Mon style des sections --- */
 
 section {
     padding: 100px 15%;
@@ -112,7 +110,7 @@ h2 {
     max-width: 400px;
 }
 
-/* Bouton Cyan type Maquette */
+/* Bouton Cyan Devis */
 .btn-cyan {
     display: inline-block;
     background-color: #40E0D0;
@@ -154,7 +152,7 @@ form {
     margin: 0 auto;
 }
 
-/* Conteneur de notifications */
+/* Conteneur de notif*/
 #notification-container {
     position: fixed;
     bottom: 20px;

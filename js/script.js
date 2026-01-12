@@ -1,9 +1,8 @@
 // --- ANIMATION TYPEWRITER ---
-const text = "VOTRE SÉCURITÉ, NOTRE EXPERTISE";
+const text = "VOTRE SÉCURITÉ, NOTRE PRIORITÉ";
 let index = 0;
 
 function typeWriter() {
-    // Correction : On vérifie d'abord si l'élément existe avant de modifier son innerHTML
     const titleElement = document.querySelector('.hero-text h1');
     
     if (titleElement && index < text.length) {
@@ -18,7 +17,6 @@ window.onload = typeWriter;
 
 // --- SYSTÈME DE NOTIFICATION ---
 function showNotify(message) {
-    // Correction : Création automatique du conteneur s'il n'existe pas
     let container = document.getElementById('notification-container');
     if (!container) {
         container = document.createElement('div');
@@ -35,7 +33,7 @@ function showNotify(message) {
 
     container.appendChild(notification);
 
-    // Suppression automatique
+    // Suppression automatique DE LA NOTIF
     setTimeout(() => {
         notification.remove();
     }, 5000);

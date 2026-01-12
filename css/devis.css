@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 15vh; /* Pour compenser le header fixe */
+    padding-top: 15vh;
 }
 
 .devis-section {
@@ -53,6 +53,6 @@ select {
 }
 
 .form-devis .btn-cyan {
-    width: 100%; /* Le bouton prend toute la largeur pour plus d'impact */
+    width: 100%; 
     margin-top: 10px;
 }
